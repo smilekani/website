@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+<tiles-definitions>  
+ 
+   <!-- Base Define -->
+   <definition name="base.definition" 
+       template="/WEB-INF/layouts/classic.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/basefragments/_header.jsp" />  
+       <put-attribute name="subheader" value="/WEB-INF/basefragments/_subheader.jsp" />
+       <put-attribute name="menu" value="/WEB-INF/basefragments/_menu.jsp" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/basefragments/_footer.jsp" />  
+   </definition>  
+ 
+   <!-- Home Page -->
+   <definition name="homePage" extends="base.definition">  
+       <put-attribute name="title" value="Home Page" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_home.jsp" />  
+   </definition>  
+      
+   <!-- ContactUs Page -->
+   <definition name="contactusPage" extends="base.definition">  
+       <put-attribute name="title" value="Contact Us" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_contactus.jsp" />  
+   </definition>  
+   
+   <!-- Not Invoke JVM Page -->
+   <definition name="notinvokejvm" extends="base.definition">  
+       <put-attribute name="title" value="How to fix 'Could not create the Java virtual machine' error message" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_notinvokejvm.jsp" />
+       <put-attribute name="menu" value="/WEB-INF/bodyfragments/_guidemenu.jsp" />  
+   </definition>
+   
+   <!-- Java Page -->
+   <definition name="java" extends="base.definition">  
+       <put-attribute name="title" value="Java Tutorial" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_java.jsp" />
+       <put-attribute name="menu" value="/WEB-INF/bodyfragments/_javamenu.jsp" />  
+   </definition>
+   
+   <!-- Java Overview -->
+   <definition name="javaoverview" extends="base.definition">  
+       <put-attribute name="title" value="Java Overview" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_javaoverview.jsp" />
+       <put-attribute name="menu" value="/WEB-INF/bodyfragments/_javamenu.jsp" />  
+   </definition>
+   
+      <!-- Java first Prog -->
+   <definition name="javafirstprog" extends="base.definition">  
+       <put-attribute name="title" value="Java Overview" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_javafirstprog.jsp" />
+       <put-attribute name="menu" value="/WEB-INF/bodyfragments/_javamenu.jsp" />  
+   </definition>
+ 
+ 
+ 
+</tiles-definitions>
