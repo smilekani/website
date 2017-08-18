@@ -1,4 +1,4 @@
-<h2>What is Java?</h2>
+<h2>What is Java?<span class="label label-default">New to BootStrap</span></h2>
 
 Java is one of the Computer Programming Language.It is also high-Level Programming Language.
 

@@ -12,14 +12,15 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
 	@Override
 	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
-		// TODO Auto-generated method stub
-		super.configureDefaultServletHandling(configurer);
+		configurer.enable();
 	}
 
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		// TODO Auto-generated method stub
-		super.addResourceHandlers(registry);
+		registry.addResourceHandler("/styles/**") //
+        .addResourceLocations("/WEB-INF/css/").setCachePeriod(31556926);
+		registry.addResourceHandler("/bootstrap/**") //
+        .addResourceLocations("/WEB-INF/plugins/").setCachePeriod(31556926);
 	}
 
 }
