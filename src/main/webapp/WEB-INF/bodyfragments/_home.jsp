@@ -6,6 +6,9 @@
 		       <li><a href="${pageContext.request.contextPath}/technology">What is Technology?</a></li>
 		       <li><a href="${pageContext.request.contextPath}/usecomputer">How to use the Computer?</a></li>
 		       <li><a href="${pageContext.request.contextPath}/proglang">What is Programming Language?</a></li>
+		       <li><a href="${pageContext.request.contextPath}/cproglang">What is C Programming?</a></li>
+		       <li><a href="${pageContext.request.contextPath}/cplusproglang">What is C++ Programming?</a></li>
+		       <li><a href="${pageContext.request.contextPath}/javaproglang">What is Java Programming?</a></li>
 	       </ul>
 		</div>
 

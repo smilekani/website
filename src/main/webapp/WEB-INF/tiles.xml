@@ -20,6 +20,13 @@
        <put-attribute name="title" value="Home Page" />  
        <put-attribute name="body" value="/WEB-INF/bodyfragments/_home.jsp" />  
    </definition>  
+   
+      <!-- Cplusplus Page -->
+   <definition name="cplusplus" extends="base.definition">  
+       <put-attribute name="title" value="C++ Tutorial" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_cplus.jsp" />
+       <put-attribute name="menu" value="/WEB-INF/bodyfragments/_cplusmenu.jsp" />  
+   </definition>
       
    <!-- ContactUs Page -->
    <definition name="contactusPage" extends="base.definition">  
@@ -77,6 +84,24 @@
    <definition name="proglang" extends="base.definition">  
        <put-attribute name="title" value="What is a programming Language?" />  
        <put-attribute name="body" value="/WEB-INF/bodyfragments/_proglang.jsp" />
+   </definition>
+   
+      <!-- C Programming -->
+   <definition name="cproglang" extends="base.definition">  
+       <put-attribute name="title" value="What is C programming?" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_cproglang.jsp" />
+   </definition>
+   
+      <!-- C++ Programming -->
+   <definition name="cplusproglang" extends="base.definition">  
+       <put-attribute name="title" value="What is a C++ programming?" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_cplusproglang.jsp" />
+   </definition>
+   
+      <!-- Java Programming -->
+   <definition name="javaproglang" extends="base.definition">  
+       <put-attribute name="title" value="What is a Java programming?" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_javaproglang.jsp" />
    </definition>
  
  

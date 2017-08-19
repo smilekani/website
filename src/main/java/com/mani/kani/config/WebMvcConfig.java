@@ -23,6 +23,8 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
         .addResourceLocations("/WEB-INF/plugins/").setCachePeriod(31556926);
 		registry.addResourceHandler("/images/**") //
         .addResourceLocations("/WEB-INF/images/").setCachePeriod(31556926);
+		registry.addResourceHandler("/pdf/**") //
+        .addResourceLocations("/WEB-INF/downloads/pdf/").setCachePeriod(31556926);
 	}
 
 }

@@ -12,7 +12,12 @@ public class MyController {
     public String homePage(Model model) {
         return "homePage";
     }
- 
+    
+    @RequestMapping(value = { "/cplusplus" }, method = RequestMethod.GET)
+    public String cplusplus(Model model) {
+    	return "cplusplus";
+    	
+    }
      
     @RequestMapping(value = { "/contactus" }, method = RequestMethod.GET)
     public String contactusPage(Model model) {
@@ -67,6 +72,24 @@ public class MyController {
     @RequestMapping(value = { "/proglang" }, method = RequestMethod.GET)
     public String proglang(Model model) {
     	return "proglang";
+    	
+    }
+    
+    @RequestMapping(value = { "/cproglang" }, method = RequestMethod.GET)
+    public String cproglang(Model model) {
+    	return "cproglang";
+    	
+    }
+    
+    @RequestMapping(value = { "/cplusproglang" }, method = RequestMethod.GET)
+    public String cplusproglang(Model model) {
+    	return "cplusproglang";
+    	
+    }
+    
+    @RequestMapping(value = { "/javaproglang" }, method = RequestMethod.GET)
+    public String javaproglang(Model model) {
+    	return "javaproglang";
     	
     }
 }

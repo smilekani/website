@@ -21,5 +21,8 @@
     <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="//www.youtube.com/embed/YE7VzlLtp-4"></iframe>
     </div>
+    <br>
+    <p><a href="${pageContext.request.contextPath}/download/pdf/typesofverbs1.pdf">Computer</a></p>
+    <br>
 </blockquote>
 </div>
