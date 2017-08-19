@@ -16,5 +16,10 @@
        <br><p class="text-center">1) compile the program
         2) interpret the program</p>
         <br><p class="text-center">The question of which language is best is one that consumes a lot of time and energy among computer professionals. Every language has its strengths and weaknesses. For example, FORTRAN is a particularly good language for processing numerical data, but it does not lend itself very well to organizing large programs. Pascal is very good for writing well-structured and readable programs, but it is not as flexible as the C programming language. C++ embodies powerful object-oriented features, but it is complex and difficult to learn.</p>
+        
+            <h2>Video with 16:9 aspect ratio</h2>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/YE7VzlLtp-4"></iframe>
+    </div>
 </blockquote>
 </div>
