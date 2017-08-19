@@ -45,4 +45,28 @@ public class MyController {
     	return "javafirstprog";
     	
     }
+    
+    @RequestMapping(value = { "/computer" }, method = RequestMethod.GET)
+    public String computer(Model model) {
+    	return "computer";
+    	
+    }
+    
+    @RequestMapping(value = { "/technology" }, method = RequestMethod.GET)
+    public String technology(Model model) {
+    	return "technology";
+    	
+    }
+    
+    @RequestMapping(value = { "/usecomputer" }, method = RequestMethod.GET)
+    public String usecomputer(Model model) {
+    	return "usecomputer";
+    	
+    }
+    
+    @RequestMapping(value = { "/proglang" }, method = RequestMethod.GET)
+    public String proglang(Model model) {
+    	return "proglang";
+    	
+    }
 }

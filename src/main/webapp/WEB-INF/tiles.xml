@@ -54,7 +54,30 @@
        <put-attribute name="body" value="/WEB-INF/bodyfragments/_javafirstprog.jsp" />
        <put-attribute name="menu" value="/WEB-INF/bodyfragments/_javamenu.jsp" />  
    </definition>
+   
+   <!-- Computer -->
+   <definition name="computer" extends="base.definition">  
+       <put-attribute name="title" value="What is a Computer ?" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_computer.jsp" />
+   </definition>
  
+ <!-- Technology -->
+   <definition name="technology" extends="base.definition">  
+       <put-attribute name="title" value="What is a Technology ?" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_technology.jsp" />
+   </definition>
+   
+    <!-- Use Computer -->
+   <definition name="usecomputer" extends="base.definition">  
+       <put-attribute name="title" value="How to use the Computer?" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_usecomputer.jsp" />
+   </definition>
+   
+   <!-- Programming Language -->
+   <definition name="proglang" extends="base.definition">  
+       <put-attribute name="title" value="What is a programming Language?" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_proglang.jsp" />
+   </definition>
  
  
 </tiles-definitions>

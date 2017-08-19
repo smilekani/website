@@ -21,6 +21,8 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
         .addResourceLocations("/WEB-INF/css/").setCachePeriod(31556926);
 		registry.addResourceHandler("/bootstrap/**") //
         .addResourceLocations("/WEB-INF/plugins/").setCachePeriod(31556926);
+		registry.addResourceHandler("/images/**") //
+        .addResourceLocations("/WEB-INF/images/").setCachePeriod(31556926);
 	}
 
 }
