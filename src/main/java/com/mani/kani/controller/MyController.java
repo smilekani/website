@@ -13,6 +13,12 @@ public class MyController {
         return "homePage";
     }
     
+    @RequestMapping(value = { "/coverview" }, method = RequestMethod.GET)
+    public String coverview(Model model) {
+    	return "coverview";
+    	
+    }
+    
     @RequestMapping(value = { "/cplusplus" }, method = RequestMethod.GET)
     public String cplusplus(Model model) {
     	return "cplusplus";
@@ -90,6 +96,12 @@ public class MyController {
     @RequestMapping(value = { "/javaproglang" }, method = RequestMethod.GET)
     public String javaproglang(Model model) {
     	return "javaproglang";
+    	
+    }
+    
+    @RequestMapping(value = { "/glucometer" }, method = RequestMethod.GET)
+    public String glucometer(Model model) {
+    	return "glucometer";
     	
     }
 }

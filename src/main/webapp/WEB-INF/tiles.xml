@@ -21,6 +21,13 @@
        <put-attribute name="body" value="/WEB-INF/bodyfragments/_home.jsp" />  
    </definition>  
    
+         <!-- C Page -->
+   <definition name="coverview" extends="base.definition">  
+       <put-attribute name="title" value="C Tutorial" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_coverview.jsp" />
+       <put-attribute name="menu" value="/WEB-INF/bodyfragments/_cmenu.jsp" />  
+   </definition>
+   
       <!-- Cplusplus Page -->
    <definition name="cplusplus" extends="base.definition">  
        <put-attribute name="title" value="C++ Tutorial" />  
@@ -102,6 +109,12 @@
    <definition name="javaproglang" extends="base.definition">  
        <put-attribute name="title" value="What is a Java programming?" />  
        <put-attribute name="body" value="/WEB-INF/bodyfragments/_javaproglang.jsp" />
+   </definition>
+   
+       <!-- Glucometer -->
+   <definition name="glucometer" extends="base.definition">  
+       <put-attribute name="title" value="glucometer" />  
+       <put-attribute name="body" value="/WEB-INF/glucometer/_howglucometer.jsp" />
    </definition>
  
  
