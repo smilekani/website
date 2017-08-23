@@ -99,6 +99,12 @@ public class MyController {
     	
     }
     
+    @RequestMapping(value = { "/git" }, method = RequestMethod.GET)
+    public String git(Model model) {
+    	return "git";
+    	
+    }
+    
     @RequestMapping(value = { "/glucometer" }, method = RequestMethod.GET)
     public String glucometer(Model model) {
     	return "glucometer";

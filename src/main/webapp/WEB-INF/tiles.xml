@@ -111,6 +111,13 @@
        <put-attribute name="body" value="/WEB-INF/bodyfragments/_javaproglang.jsp" />
    </definition>
    
+         <!-- Git -->
+   <definition name="git" extends="base.definition">  
+       <put-attribute name="title" value="git" />  
+       <put-attribute name="body" value="/WEB-INF/git/_git.jsp" />
+       <put-attribute name="menu" value="/WEB-INF/git/_gitmenu.jsp" /> 
+   </definition>
+   
        <!-- Glucometer -->
    <definition name="glucometer" extends="base.definition">  
        <put-attribute name="title" value="glucometer" />  
