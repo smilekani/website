@@ -1,3 +1,6 @@
+<!--   <title>jQuery Mobile React Example</title> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.css" />
+  <link rel="stylesheet" href="https://demos.jquerymobile.com/1.4.5/_assets/css/jqm-demos.css" />
 <div class="bs-example">
 <h2 class="text-center">How do glucometers work?</h2>
 <blockquote>
@@ -8,6 +11,11 @@
     <br><p class="text-center">Periodic tests via glucometer play an important part in the diabetic’s treatment plan, but current models fall short in giving a true picture of glucose fluctuations in real time. “The complications of diabetes stem from the blood sugar going outside the safe range,” says Strano. Catching those times and intervening appropriately can, in theory, lessen the negative effects of the disease, which can include heart disease, blindness, limb amputation, and kidney failure.</p>
     <br><p class="text-center">Strano and his team, with funding from MIT’s Deshpande Center for Technological Innovation, are creating the next generation of glucose testing. Their system consists of an ink made of glucose-responsive carbon nanotubes. The ink would be injected under the skin in a design a few centimeters square, creating a sugar-sensitive tattoo. “When near-infrared light is shone on the ink, it would change color in response to the blood glucose level,” he says — a welcome change for the millions of diabetics weary of frequent finger pricks. “The user would have continuous real-time glucose information and wouldn’t have to query at all.”</p>
     <br><p class="text-center">And could creative diabetics design their own custom nanotube image?  “You could possibly do that,” says Strano. “I’ve actually been contacted by several tattoo artists who are interested in working with us.”</p>
-    <br><p class="text-center">Animal testing of Strano’s nanotube model is ongoing, and human trials are expected to begin within a year.</p>
+    <br><p class="class=ui-mobile-viewport ui-overlay-a">Animal testing of Strano’s nanotube model is ongoing, and human trials are expected to begin within a year.</p>
 </blockquote>
 </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js"></script>
+  <script src="${pageContext.request.contextPath}/react/build/react.js"></script>
+  <script src="${pageContext.request.contextPath}/react/build/react-dom.js"></script>
+<!--   <script src="js/app.js"></script> -->
