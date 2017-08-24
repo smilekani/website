@@ -6,5 +6,7 @@
      <br><p class="text-center">Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development. Its current maintainer since 2005 is Junio Hamano.</p>
     <br><p class="text-center">As with most other distributed version control systems, and unlike most client–server systems, every Git directory on every computer is a full-fledged repository with complete history and full version tracking abilities, independent of network access or a central server</p>
     <br><p class="text-center">Git is free software distributed under the terms of the GNU General Public License version 2.</p>
+       <br><p class="text-center">Please follow the Link for integrating git with Eclipse for commit,Merge,Push,Pull and other activities.<a href="https://eclipsesource.com/blogs/tutorials/egit-tutorial/">To Integrate Git with Eclipse </a> </p>
+       
        </blockquote>
        </div>

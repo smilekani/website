@@ -19,6 +19,11 @@ public class MyController {
     	
     }
     
+    @RequestMapping(value = { "/cprintfscanf" }, method = RequestMethod.GET)
+    public String cprintfscanf(Model model) {
+    	return "cprintfscanf";
+    }
+    
     @RequestMapping(value = { "/cplusplus" }, method = RequestMethod.GET)
     public String cplusplus(Model model) {
     	return "cplusplus";

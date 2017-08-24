@@ -28,6 +28,13 @@
        <put-attribute name="menu" value="/WEB-INF/bodyfragments/_cmenu.jsp" />  
    </definition>
    
+        <!-- C Printf() & Scanf() -->
+   <definition name="cprintfscanf" extends="base.definition">  
+       <put-attribute name="title" value="C Print() And Scanf()" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_cprintfscanf.jsp" />
+       <put-attribute name="menu" value="/WEB-INF/bodyfragments/_cmenu.jsp" />  
+   </definition>
+   
       <!-- Cplusplus Page -->
    <definition name="cplusplus" extends="base.definition">  
        <put-attribute name="title" value="C++ Tutorial" />  
@@ -59,6 +66,13 @@
    <definition name="javaoverview" extends="base.definition">  
        <put-attribute name="title" value="Java Overview" />  
        <put-attribute name="body" value="/WEB-INF/bodyfragments/_javaoverview.jsp" />
+       <put-attribute name="menu" value="/WEB-INF/bodyfragments/_javamenu.jsp" />  
+   </definition>
+   
+      <!-- Java Decompiler -->
+   <definition name="javadecompiler" extends="base.definition">  
+       <put-attribute name="title" value="Java DeCompiler" />  
+       <put-attribute name="body" value="/WEB-INF/bodyfragments/_javadecompiler.jsp" />
        <put-attribute name="menu" value="/WEB-INF/bodyfragments/_javamenu.jsp" />  
    </definition>
    
